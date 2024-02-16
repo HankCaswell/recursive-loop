@@ -7,7 +7,7 @@ def count_up (integer):
         print(integer)
 
 
-print(count_up(10))
+count_up(10)
 
 
 def count_down(integer):
@@ -17,5 +17,4 @@ def count_down(integer):
     else:
         print(integer)
         count_down(integer-1)
-
-print(count_down(10))
+count_down(10)
